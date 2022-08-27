@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Voice Recognition</title>
+    <script src="script.js"></script>
+  </head>
+
+<style>
+    *,
+    *:after,
+    *:before {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: arial;
+      font-size: 16px;
+      margin: 0;
+      background: linear-gradient(to right bottom, #d13cff, #031f6a);
+      color: #000;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    .voice_to_text {
+      width: 600px;
+      text-align: center;
+    }
+    h1 {
+      color: #fff;
+      font-size: 50px;
+    }
+    #convert_text {
+      width: 100%;
+      height: 200px;
+      border-radius: 10px;
+      resize: none;
+      padding: 10px;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    button {
+      padding: 12px 20px;
+      background: #0ea4da;
+      box-shadow:  #0ea4da 0px 10px 20px -5px;  
+        background: linear-gradient(360deg, #0ea4da 0%, #0ea4da 85%);
+
+      border: 0;
+      color: #fff;
+      font-size: 18px;
+      cursor: pointer;
+      border-radius: 0px;
+    }
+</style>
+
+<body>
+    <div class="voice_to_text">
+      <h1>Voice to Text Converter</h1>
+      <textarea name="" id="convert_text"></textarea>
+      <button id="click_to_record">Click To speak</button>
+      <pre> </pre>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
